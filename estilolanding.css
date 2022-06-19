@@ -198,8 +198,12 @@ header a:hover {
         background-color: white;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
         
+               
     }
-
+    @media (min-width: 1200px) {
+        #shopping{
+            background-position-x: calc(100vw - 800px);}
+        }
     footer {
         width: 100%;
         position: fixed;
@@ -304,6 +308,6 @@ header a:hover {
     }
 
     @media (min-width: 1200px) {
-        #caracteristicas{
+        #footer{
             background-position-x: calc(100vw - 800px);}
         }
